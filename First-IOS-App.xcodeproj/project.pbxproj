@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398B550A28D1F7D20060BCF3 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B550928D1F7D20060BCF3 /* SingleCardView.swift */; };
 		39BC2EA128D0C35F00540325 /* First_IOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC2EA028D0C35F00540325 /* First_IOS_AppApp.swift */; };
 		39BC2EA328D0C35F00540325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC2EA228D0C35F00540325 /* ContentView.swift */; };
 		39BC2EA528D0C36100540325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BC2EA428D0C36100540325 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		398B550928D1F7D20060BCF3 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
 		39BC2E9D28D0C35F00540325 /* First-IOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-IOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BC2EA028D0C35F00540325 /* First_IOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_IOS_AppApp.swift; sourceTree = "<group>"; };
 		39BC2EA228D0C35F00540325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398B550628D1F75B0060BCF3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				398B550928D1F7D20060BCF3 /* SingleCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		39BC2E9428D0C35F00540325 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 			children = (
 				39BC2EA028D0C35F00540325 /* First_IOS_AppApp.swift */,
 				39BC2EA228D0C35F00540325 /* ContentView.swift */,
+				398B550628D1F75B0060BCF3 /* Components */,
 				39BC2EA428D0C36100540325 /* Assets.xcassets */,
 				39BC2EA628D0C36100540325 /* Preview Content */,
 			);
@@ -259,6 +270,7 @@
 			files = (
 				39BC2EA328D0C35F00540325 /* ContentView.swift in Sources */,
 				39BC2EA128D0C35F00540325 /* First_IOS_AppApp.swift in Sources */,
+				398B550A28D1F7D20060BCF3 /* SingleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
